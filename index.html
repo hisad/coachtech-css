@@ -2,28 +2,78 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>practoce css</title>
+  <title>test 静的WEBデザイン</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shippori+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="flex">
-    <h2 class="company">COACHTECH</h2>
-    <div class="cat">
-      <div class="cat_item">ホーム</div>
-      <div class="cat_item">事業内容</div>
-      <div class="cat_item">採用情報</div>
-      <div class="cat_item">お問い合わせ</div>
+  <header class="header">
+    <h1 class="header-ttl">
+      COACH COSME
+    </h1>
+  </header>
+  <div class="main">
+    <div class="firstview">
+      <img class="firstview__img" src="./img/fv.png" alt="">
+      <div class="firstview__text">
+        <h1>毎日<span class="firstview__text--em">1分</span>のケアで<br>
+        <span class="firstview__text--em">「憧れの透明感」</span>を
+        <span class="firstview__text--em-blk">作れる？</span>
+        </h1>
+      </div>
+      <div class="firstview__price">
+        <div class="firstview__price--btn">今だけ</div>
+        <div class="firstview__price--text">
+          <p class="firstview__price--text-green">新規入会特別価格</p>
+          <p class="firstview__price--text-red">月額
+            <span class="firstview__price--text-red-em">1,100</span>円
+          </p>
+        </div>
+      </div>
+      <a class="firstview__btn">30日間無料キャンペーンに参加！</a>
+    </div>
+    <div class="trouble">
+      <div class="trouble__text">こんな<span class="trouble__text--em">悩み</span>抱えていませんか??
+    </div>
+    <div class="trouble__list">
+      <img class="trouble__list--img" src="./img/trouble-img.png" alt="">
+      <div class="trouble__list--text">
+        <p class="trouble__list--text-check">ケアしてもニキビが治らない</p>
+        <p class="trouble__list--text-check">シミやニキビの跡が気になる</p>
+        <p class="trouble__list--text-check">乾燥で肌が痒くなってしまう</p>
+      </div>
+    </div>
+    <div class="solution">
+      <p class="solution__text"><span class="solution__logo" >COACH COSME</span>なら、<br>
+      <span class="solution__text--em">毎日1分のケア</span>であなたの<br>
+      <span class="solution__text--em-red">お悩みを解決</span>します！
+      </p>
+    </div>
+    <div class="point">
+      <div class="point__card">
+        <div class="point__tab">POINT1</div>
+        <h3 class="point__ttl">美容効果の高い<br><span class="point__ttl--em">ビタミンB群</span>を配合</h3>
+        <p class="point__text">肌荒れを防ぐビタミンB群を配合。肌荒れしない肌に。</p>
+      </div>
+      <div class="point__card">
+        <div class="point__tab">POINT2</div>
+        <h3 class="point__ttl">もちもち肌を作り出す<br><span class="point__ttl--em">コラーゲン</span></h3>
+        <p class="point__text">肌のハリと艶を高める事前由来のコラーゲンを配合。</p>
+      </div>
+      <div class="point__card">
+        <div class="point__tab">POINT3</div>
+        <h3 class="point__ttl">肌の保湿力を高める<br><span class="point__ttl--em">ヒアルロン酸</span></h3>
+        <p class="point__text">肌本来の透明感を高めるヒアルロン酸を多く配合。</p>
+      </div>
     </div>
   </div>
-
-  <div class=top>
-    <h1 class="top_ttl">毎日を笑顔に</h1>
-    <div class="top_img">
-      <img src="./img/firstview.jpeg" alt="">
-    </div>
-    <div class=top_line></div>
+  <div class="footer">
+    <small class="footer-copyright">&copy; 2021 estra,inc</small>
   </div>
 </body>
 </html>
